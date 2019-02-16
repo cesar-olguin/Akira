@@ -38,7 +38,7 @@ public class Akira.Window : Gtk.ApplicationWindow {
 		Object (
 			application: akira_app,
 			app: akira_app,
-			icon_name: "com.github.alecaddd.akira"
+			icon_name: "com.github.akiraux.akira"
 		);
 	}
 
@@ -74,7 +74,7 @@ public class Akira.Window : Gtk.ApplicationWindow {
 		Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = settings.dark_theme;
 
 		var css_provider = new Gtk.CssProvider ();
-		css_provider.load_from_resource ("/com/github/alecaddd/akira/stylesheet.css");
+		css_provider.load_from_resource ("/com/github/akiraux/akira/stylesheet.css");
 		
 		Gtk.StyleContext.add_provider_for_screen (
 			Gdk.Screen.get_default (), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION

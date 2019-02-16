@@ -155,8 +155,8 @@ public class Akira.Layouts.Partials.Layer : Gtk.ListBoxRow {
 		button_hidden.get_style_context ().remove_class ("button");
 		button_hidden.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
 		button_hidden.get_style_context ().add_class ("layer-action");
-		icon_hidden = new Gtk.Image.from_resource ("/com/github/alecaddd/akira/tools/eye.svg");
-		icon_visible = new Gtk.Image.from_resource ("/com/github/alecaddd/akira/tools/eye-not.svg");
+		icon_hidden = new Gtk.Image.from_resource ("/com/github/akiraux/akira/tools/eye.svg");
+		icon_visible = new Gtk.Image.from_resource ("/com/github/akiraux/akira/tools/eye-not.svg");
 		icon_visible.visible = false;
 		icon_visible.no_show_all = true;
 

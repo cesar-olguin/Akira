@@ -22,7 +22,7 @@
 public class Akira.Layouts.HeaderBar : Gtk.HeaderBar {
 	public weak Akira.Window window { get; construct; }
 
-	private const string TOOLS_DIR = "/com/github/alecaddd/akira/tools/";
+	private const string TOOLS_DIR = "/com/github/akiraux/akira/tools/";
 
 	public Akira.Partials.HeaderBarButton new_document;
 	public Akira.Partials.HeaderBarButton save_file;

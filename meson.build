@@ -1,5 +1,5 @@
 # project name and programming language
-project('com.github.alecaddd.akira', 'vala', 'c')
+project('com.github.akiraux.akira', 'vala', 'c')
 
 # Include the translations module
 i18n = import('i18n')
